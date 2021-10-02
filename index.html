@@ -12,7 +12,6 @@
       href="https://bootswatch.com/5/darkly/bootstrap.min.css"
       type="text/css"
     />
-
     <!-- Ref: https://github.com/FirebaseExtended/firepad/blob/master/examples/richtext-simple.html -->
 
     <!-- Firebase -->
@@ -37,7 +36,15 @@
   -->
   <body>
     <main>
+<<<<<<< HEAD
 
+=======
+       <style>
+      body {
+        background-image: url('https://cdn.glitch.com/b40828b6-ccc4-4ac7-ae0a-c47770512700%2Fmoon_surface.jpg?v=1633209069879');
+      }
+    </style>
+>>>>>>> d7ba6a5742c872ff6c12d87b878bf58d913ffe21
       <div
         class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark"
         style="width: 280px;"
@@ -128,7 +135,10 @@
       </div>
 
       <div id="firepad-container" class="container"></div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> d7ba6a5742c872ff6c12d87b878bf58d913ffe21
     </main>
 
     <!-- JavaScript Bundle with Popper -->
@@ -148,8 +158,9 @@
 
           authDomain: "lunar-surface-operations-rtc.firebaseapp.com",
 
-          databaseURL: "https://lunar-surface-operations-rtc-default-rtdb.firebaseio.com/",
-                            
+          databaseURL:
+            "https://lunar-surface-operations-rtc-default-rtdb.firebaseio.com/",
+
           projectId: "lunar-surface-operations-rtc",
 
           storageBucket: "lunar-surface-operations-rtc.appspot.com",
@@ -161,17 +172,24 @@
 
         firebase.initializeApp(firebaseConfig);
 
-       var firepadRef = firebase.database().ref();
-        
-      //// Create CodeMirror (with lineWrapping on).
-      var codeMirror = CodeMirror(document.getElementById('firepad-container'), { lineWrapping: true });
+        var firepadRef = firebase.database().ref();
 
-      //// Create Firepad (with rich text toolbar and shortcuts enabled).
-      var firepad = Firepad.fromCodeMirror(firepadRef, codeMirror,
-          { richTextToolbar: true, richTextShortcuts: true, defaultText: "hello" });
+        //// Create CodeMirror (with lineWrapping on).
+        var codeMirror = CodeMirror(
+          document.getElementById("firepad-container"),
+          { lineWrapping: true }
+        );
 
-      //// Initialize contents.
+        //// Create Firepad (with rich text toolbar and shortcuts enabled).
+        var firepad = Firepad.fromCodeMirror(firepadRef, codeMirror, {
+          richTextToolbar: true,
+          richTextShortcuts: true,
+          defaultText: "hello"
+        });
+
+        //// Initialize contents.
         //
+<<<<<<< HEAD
       firepad.on('ready', function() {
         console.log("### in function firepad.on ###")
         if (firepad.isHistoryEmpty()) {
@@ -181,8 +199,18 @@
           console.log("  -- in else NOT firepad.isHistoryEmpty() ")
         }
       })
+=======
+        firepad.on("ready", function() {
+          console.log("### in function firepad.on ###");
+          if (firepad.isHistoryEmpty()) {
+            console.log("  -- in if firepad.isHistoryEmpty() ");
+            firepad.setHtml(
+              '<span style="font-size: 24px;">Rich-text editing with <span style="color: red">Firepad!</span></span><br/><br/>Collaborative-editing made easy.\n'
+            );
+          }
+        });
+>>>>>>> d7ba6a5742c872ff6c12d87b878bf58d913ffe21
       }
-
     </script>
 
     <script>
