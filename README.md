@@ -36,5 +36,5 @@ Your application should prohibit:
 * MARS-UI-Screen-Graphics [:link:](https://www.behance.net/gallery/47272469/MARS-UI-Screen-Graphics)
 * arwes [:link:](https://arwes.dev/design)
 * daedalus [:link:](https://www.behance.net/gallery/47272469/MARS-UI-Screen-Graphics/modules/282048871)
-* something
+
 
