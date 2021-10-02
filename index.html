@@ -37,7 +37,7 @@
   -->
   <body>
     <main>
-      <div id="firepad-container"></div>
+
       <div
         class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark"
         style="width: 280px;"
@@ -126,6 +126,9 @@
           </ul>
         </div>
       </div>
+
+      <div id="firepad-container" class="container"></div>
+
     </main>
 
     <!-- JavaScript Bundle with Popper -->
@@ -170,8 +173,12 @@
       //// Initialize contents.
         //
       firepad.on('ready', function() {
+        console.log("### in function firepad.on ###")
         if (firepad.isHistoryEmpty()) {
+          console.log("  -- in if firepad.isHistoryEmpty() ")
           firepad.setHtml('<span style="font-size: 24px;">Rich-text editing with <span style="color: red">Firepad!</span></span><br/><br/>Collaborative-editing made easy.\n');
+        }else{
+          console.log("  -- in else NOT firepad.isHistoryEmpty() ")
         }
       })
       }
