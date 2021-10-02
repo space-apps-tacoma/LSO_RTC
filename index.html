@@ -36,15 +36,12 @@
   -->
   <body>
     <main>
-<<<<<<< HEAD
-
-=======
        <style>
-      body {
-        background-image: url('https://cdn.glitch.com/b40828b6-ccc4-4ac7-ae0a-c47770512700%2Fmoon_surface.jpg?v=1633209069879');
-      }
-    </style>
->>>>>>> d7ba6a5742c872ff6c12d87b878bf58d913ffe21
+         body {
+           background-image: url('https://cdn.glitch.com/b40828b6-ccc4-4ac7-ae0a-c47770512700%2Fmoon_surface.jpg?v=1633209069879');
+         }
+       </style>
+
       <div
         class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark"
         style="width: 280px;"
@@ -135,10 +132,6 @@
       </div>
 
       <div id="firepad-container" class="container"></div>
-<<<<<<< HEAD
-
-=======
->>>>>>> d7ba6a5742c872ff6c12d87b878bf58d913ffe21
     </main>
 
     <!-- JavaScript Bundle with Popper -->
@@ -189,7 +182,7 @@
 
         //// Initialize contents.
         //
-<<<<<<< HEAD
+
       firepad.on('ready', function() {
         console.log("### in function firepad.on ###")
         if (firepad.isHistoryEmpty()) {
@@ -199,17 +192,6 @@
           console.log("  -- in else NOT firepad.isHistoryEmpty() ")
         }
       })
-=======
-        firepad.on("ready", function() {
-          console.log("### in function firepad.on ###");
-          if (firepad.isHistoryEmpty()) {
-            console.log("  -- in if firepad.isHistoryEmpty() ");
-            firepad.setHtml(
-              '<span style="font-size: 24px;">Rich-text editing with <span style="color: red">Firepad!</span></span><br/><br/>Collaborative-editing made easy.\n'
-            );
-          }
-        });
->>>>>>> d7ba6a5742c872ff6c12d87b878bf58d913ffe21
       }
     </script>
 
