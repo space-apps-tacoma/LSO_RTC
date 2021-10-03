@@ -28,14 +28,44 @@ Your application should prohibit:
 * Users from overwriting or deleting other user’s inputs
 * Application access from unapproved people
     
+----
+
 ## Reference
 
 
+### Real-time collaborative document editing
+
+* Theory
+  * Operational Transform | Wikipedia [:link:](https://en.wikipedia.org/wiki/Operational_transformation)
+
+  * Blog
+    * Building a real-time collaborative editor [:link:](https://www.mahfuz.info/2021/07/04/collaborative-editor/)
+    * [collab](https://github.com/mahfuzsust/collab)
+
+    * [ottypes](https://github.com/ottypes) sketches
+
+  * White papers
+    * Achieving Convergence [:link:](http://www.dataluna.com/moca-papers/505.pdf)
+    * google scholar [:link:](https://scholar.google.com/scholar?q=%22operational+transform%22&hl=en&as_sdt=0,48)
+
+* Frameworks
+  * Node.js
+    * derbyjs [:link:](https://derbyjs.com/)  [:octocat:](https://github.com/derbyjs/derby)
+    * sharejs [:link:](https://sharejs.org/)  [:octocat:](https://github.com/share)
+
+* Editors
+  * ckeditor [:link:](https://ckeditor.com/) [:octocat:](https://github.com/ckeditor/ckeditor5)
+  * quill [:link:](https://quilljs.com/) [:octocat:](https://github.com/quilljs)
+  * firepad active development ended September 2020.
+  * blog
+    * open-source-collaborative-text-editors | juretriglav [:link:](https://juretriglav.si/open-source-collaborative-text-editors/)
+
 ### Similar missions
+
 * Lunar Reconnaissance Orbiter [LRO](https://lunar.gsfc.nasa.gov/index.html)
   * [Data Resources](https://lunar.gsfc.nasa.gov/resources.html)
   
-### Dashboards
+### Dashboard inspiration
 
 * sci-fi-designs-to-inspire [:link:](https://www.sitepoint.com/14-top-sci-fi-designs-to-inspire-your-next-interface/)
 * MARS-UI-Screen-Graphics [:link:](https://www.behance.net/gallery/47272469/MARS-UI-Screen-Graphics)
