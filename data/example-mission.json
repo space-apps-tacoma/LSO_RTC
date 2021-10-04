@@ -1,0 +1,53 @@
+{
+  "mission": {
+    "id": "unique number assigned by NASA",
+    "title": "name of the mission here",
+    "description": "description of the mission",
+    "teams": {
+      "flight_control_team_titles": {
+        "eva": "Extra Vehicular Activity Officer",
+        "emu": "Extra Vehicular Mobility Unit Officer",
+        "airlock": "Airlock Officer",
+        "task": "Task Officer",
+        "science": "Science Officer"
+      },
+      "team_eva": {
+        "members": [
+          {
+            "id": "unique NASA assigned employee id number",
+            "name": {
+              "first": "team member first name here",
+              "last": "team member last name here"
+            },
+            "title": "code here ie, mission.teams.flight_control_team_titles.eva",
+            "logs": [
+              {
+                "immutable": true,
+                "timestamp": "database system time assigned by software when array element is entered",
+                "note.event_time": "team member notes time of event",
+                "note.call_time": "team member notes call time when verbal report occurs",
+                "event_rich_text": "<span>to infinity and beyond</span>",
+                "image_links": [
+                  "unique.endpoint.here/image3000.jpg"
+                ],
+                "title": "maybe"
+              },
+              {
+                "id": "1"
+              },
+              {
+                "id": "2"
+              },
+              {
+                "id": "as many as you want"
+              }
+            ]
+          }
+        ]
+      },
+      "team_emu": {},
+      "team_airlock": {},
+      "team_task": {}
+    }
+  }
+}
