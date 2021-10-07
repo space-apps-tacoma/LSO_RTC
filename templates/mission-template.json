@@ -1,0 +1,26 @@
+{
+  "mission": {
+    "sid":"unique number assigned by system at time of creation",
+    "id": "unique number assigned by agency",
+    "title": "offical name of the mission here",
+    "description": "official description of the mission",
+    "acronym":"acronym for mission here",
+    "acronym_expanded":"expanded description of acronym here",
+    "start_date":"2000-04-23T18:25:43.511Z",
+    "end_date":"2001-04-23T18:25:43.511Z",
+    "team": {
+      "names":{
+        "unique_name_01":{
+          "sid":"unique number assigned by system at time of creation",
+          "id": "unique team id number assigned by agency",
+          "title": "offical team title here",
+          "description": "official description of the team",
+          "acronym":"acronym for team unique_name_01 here",
+          "acronym_expanded":"expanded description of acronym here",
+          "members":{}
+        }
+      }
+    },
+    "logs":{}
+  }
+}
