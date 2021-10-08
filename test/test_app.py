@@ -17,6 +17,11 @@ class InceptionTests(unittest.TestCase):
         test_mission = create.mission.default(template_path).get("mission")
         self.assertEqual(test_mission["id"] , "unique number assigned by agency" )  
 
+    def test_verify_team_name_template_available(self):
+        template_path = '../templates/team-name-template.json'
+        names = create.mission.default(template_path).get("names")
+        name_help = names.get("unique_name_help")
+        self.assertEqual(name_help["id"] , "unique team id number assigned by agency" )
         
 # test runner        
 if __name__ == '__main__':

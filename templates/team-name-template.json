@@ -1,0 +1,12 @@
+{
+  "names": {
+    "unique_name_help": {
+      "sid": "unique number assigned by system at time of creation",
+      "id": "unique team id number assigned by agency",
+      "title": "offical team title here",
+      "description": "official description of the team",
+      "acronym": "acronym for team unique_name_01 here",
+      "acronym_expanded": "expanded description of acronym here"
+    }
+  }
+}
