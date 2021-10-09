@@ -15,7 +15,7 @@ import json
 
 class mission():
 
-    def default(path):
+    def dictionary_from(path):
         ''' 
            Load the blank json template from the file in the path.
            This is a generic method that converts a json file to

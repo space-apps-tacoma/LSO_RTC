@@ -14,12 +14,12 @@ class InceptionTests(unittest.TestCase):
 
     def test_verify_mission_template_available(self):
         template_path = '../templates/mission-template.json'
-        test_mission = create.mission.default(template_path).get("mission")
+        test_mission = create.mission.dictionary_from(template_path).get("mission")
         self.assertEqual(test_mission["id"] , "unique number assigned by agency" )  
 
     def test_verify_team_name_template_available(self):
         template_path = '../templates/team-name-template.json'
-        names = create.mission.default(template_path).get("names")
+        names = create.mission.dictionary_from(template_path).get("names")
         name_help = names.get("unique_name_help")
         self.assertEqual(name_help["id"] , "unique team id number assigned by agency" )
         
