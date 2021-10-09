@@ -1,0 +1,9 @@
+{
+  "log_template":{
+    "unique_generted_sid_here":{
+      "log_system_time_stamp":"2000-04-25T18:25:43.511Z",
+      "team_name":"team that the logger is on",
+      "log_event_time":"user enters noted time"    
+    }
+  }
+}
