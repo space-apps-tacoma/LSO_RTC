@@ -63,7 +63,11 @@ Your application should prohibit:
 ### Similar missions
 
 * Lunar Reconnaissance Orbiter [LRO](https://lunar.gsfc.nasa.gov/index.html)
-  * [Data Resources](https://lunar.gsfc.nasa.gov/resources.html)
+  * [Data Resources](https://lunar.gsfc.nasa.gov/resources.html)https://human-factors.arc.nasa.gov/publications/Parke_MER_SurfaceOps_Handovers_05.pdf
+  
+### Mission Communication
+
+* Shift Handover Communication [:link:](https://human-factors.arc.nasa.gov/publications/Parke_MER_SurfaceOps_Handovers_05.pdf)
   
 ### Dashboard inspiration
 
