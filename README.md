@@ -63,17 +63,15 @@ Your application should prohibit:
 ### Similar missions
 
 * Lunar Reconnaissance Orbiter [LRO](https://lunar.gsfc.nasa.gov/index.html)
-  * [Data Resources](https://lunar.gsfc.nasa.gov/resources.html)https://human-factors.arc.nasa.gov/publications/Parke_MER_SurfaceOps_Handovers_05.pdf
-  
+  * [Data Resources](https://lunar.gsfc.nasa.gov/resources.html)
+
 ### Mission Communication
 
 * Shift Handover Communication [:link:](https://human-factors.arc.nasa.gov/publications/Parke_MER_SurfaceOps_Handovers_05.pdf)
-  
+
 ### Dashboard inspiration
 
 * sci-fi-designs-to-inspire [:link:](https://www.sitepoint.com/14-top-sci-fi-designs-to-inspire-your-next-interface/)
 * MARS-UI-Screen-Graphics [:link:](https://www.behance.net/gallery/47272469/MARS-UI-Screen-Graphics)
 * arwes [:link:](https://arwes.dev/design)
 * daedalus [:link:](https://www.behance.net/gallery/47272469/MARS-UI-Screen-Graphics/modules/282048871)
-
-
