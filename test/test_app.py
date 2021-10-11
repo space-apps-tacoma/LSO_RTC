@@ -22,6 +22,11 @@ class InceptionTests(unittest.TestCase):
         names = create.mission.dictionary_from(template_path).get("names")
         name_help = names.get("unique_name_help")
         self.assertEqual(name_help["id"] , "unique team id number assigned by agency" )
+
+    def test_verify_log_template_available(self):
+        template_path = '../templates/log-template.json'
+        log = create.mission.dictionary_from(template_path).get("log_template")
+        self.assertEqual(log["unique_generated_sid_here"]["team_name"] , "team that the logger is on" )
         
 # test runner        
 if __name__ == '__main__':
