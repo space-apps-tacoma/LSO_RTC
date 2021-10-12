@@ -1,0 +1,10 @@
+{
+  "after_action_review_template":{
+    "unique_generated_sid_here":{
+      "after_action_review_system_time_stamp":"2000-04-25T18:25:43.511Z",
+      "team_name":"team that the reviewer is on",
+      "after_action_review_event_time":"reviewer enters noted time",
+      "comment":"reviewer comment"
+    }
+  }
+}

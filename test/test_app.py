@@ -27,6 +27,11 @@ class InceptionTests(unittest.TestCase):
         template_path = '../templates/log-template.json'
         log = create.mission.dictionary_from(template_path).get("log_template")
         self.assertEqual(log["unique_generated_sid_here"]["team_name"] , "team that the logger is on" )
+
+    def test_verify_after_action_review_template_available(self):
+        template_path = '../templates/after-action-review-template.json'
+        aar = create.mission.dictionary_from(template_path).get("after_action_review_template")
+        self.assertEqual(aar["unique_generated_sid_here"]["team_name"] , "team that the reviewer is on" )
         
 # test runner        
 if __name__ == '__main__':
